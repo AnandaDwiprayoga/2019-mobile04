@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void handleExit(View view) {
         finish();
     }
+
+    public void handleImplicitIntent(View view) {
+        startActivity(new Intent(this, ImplicitIntentActivity.class));
+    }
 }
