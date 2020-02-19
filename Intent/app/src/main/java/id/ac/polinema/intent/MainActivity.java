@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public void handleBundle(View view) {
         startActivity(new Intent(this, BundleActivity.class));
     }
+
+    public void handleParcelable(View view) {
+        startActivity(new Intent(this, ParcelableActivity.class));
+    }
 }
